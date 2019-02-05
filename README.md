@@ -1,59 +1,82 @@
-<!-- MARKDOWN CHEATSHEET--!>
+<!-- Headings -->
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 
-<!--Headings--!>
-#Heading 1 (Large size)
-##Heading 2(Small size)
-###Heading 3(Smaller)
+<!-- Italics -->
+*This text* is italic
 
-<!--Italics--!>
-*Italic*
+_This text_ is italic
 
-<!--Bold--!>
-**Bold**
+<!-- Strong -->
+**This text** is italic
 
-<!--horizontal line--!>
+__This text__ is italic
+
+<!-- Strikethrough -->
+~~This text~~ is strikethrough
+
+<!-- Horizontal Rule -->
+
 ---
-<!--or--!>
 ___
 
-<!--Strikethrough--!>
-~~Strike~~
+<!-- Blockquote -->
+> This is a quote
 
-<!--To escape a special character put \ in front of that special character--!>
-\*This text\*
+<!-- Links -->
+[Traversy Media](http://www.traversymedia.com)
 
-<!--Blockquote--!>
->This is a quote
+[Traversy Media](http://www.traversymedia.com "Traversy Media")
 
-<!--Links--!>
-<!--text to be displayed--!>[satya9500]<!--Actual Link--!>(https://www.github.com/satya9500)
+<!-- UL -->
+* Item 1
+* Item 2
+* Item 3
+  * Nested Item 1
+  * Nested Item 2
 
-<!--UL--!>
-*Item 1
-*Item 2
-    *Nestem Item 1
-    *Nestem Item 2
+<!-- OL -->
+1. Item 1
+1. Item 2
+1. Item 3
 
-<!--OL--!>
-1.Item 1
-1.Item 2
-1.item 3
+<!-- Inline Code Block -->
+`<p>This is a paragraph</p>`
 
-<!--Inline Code Block--!>
-`<p>The is a code block</p>`
+<!-- Images -->
+![Markdown Logo](https://markdown-here.com/img/icon256.png)
 
-<!--Images--!>
-![Image](https://markdown-here.com/img/icon256.png)
+<!-- Github Markdown -->
 
+<!-- Code Blocks -->
+```bash
+  npm install
 
-<!--Code Blocks--!>
+  npm start
 ```
-a code for example "aircrack-ng install"
 
+```javascript
+  function add(num1, num2) {
+    return num1 + num2;
+  }
 ```
 
-<!--Tables--!>
-|Name | Email|
-|-----|------|
-|Name1|Email1|
-|Name2|Email2|
+```python
+  def add(num1, num2):
+    return num1 + num2
+```
+
+<!-- Tables -->
+| Name     | Email          |
+| -------- | -------------- |
+| John Doe | john@gmail.com |
+| Jane Doe | jane@gmail.com |
+
+<!-- Task List -->
+* [x] Task 1
+* [x] Task 2
+* [ ] Task 3
